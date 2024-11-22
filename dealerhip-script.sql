@@ -30,4 +30,4 @@ FOREIGN KEY (vin) REFERENCES vehicles(vin),
 sales_tax FLOAT(50),
 recording_fee FLOAT(50),
 processing_fee FLOAT(50),
-`is_finances` BOOLEAN);
+`is_financed` BOOLEAN);
